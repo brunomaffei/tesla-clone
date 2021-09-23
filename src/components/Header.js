@@ -55,13 +55,13 @@ function Header() {
 export default Header;
 
 const Container = styled.div`
-  min-height: 60px; // Tamanho entre top e bottom
+  min-height: 70px; // Tamanho entre top e bottom
   position: fixed;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 50px;
   top: 0;
   left: 0;
   right: 0;
@@ -73,6 +73,7 @@ const Menu = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  transition: color 0.33s ease;
 
   a {
     font-weight: 600;
